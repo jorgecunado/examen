@@ -84,7 +84,8 @@ class Enunciado:
 			print("{},-{}".format(indice,pregunta.get_texto()))
 
 class Examen:
-	def __init__(self, )
+	def __init__(self, respuesta)
+		self.respuest = respuesta
 
 
 
