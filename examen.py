@@ -83,6 +83,12 @@ class Enunciado:
 		for indice,pregunta in enumerate(self.lista_preguntas):
 			print("{},-{}".format(indice,pregunta.get_texto()))
 
+class Examen:
+	def __init__(self, )
+
+
+
+	
 pregunta1 = Pregunta()
 pregunta1.texto="El triangulo escaleno tiene los tres lados iguales"	
 pregunta1.respuesta = "Falso"	
